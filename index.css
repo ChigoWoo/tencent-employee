@@ -1,0 +1,329 @@
+.content .talent-academy {
+  width: 1200px;
+  height: 1376px;
+  margin: 0px auto;
+  padding: 96px 0px;
+}
+
+.content .talent-academy .talent {
+  position: relative;
+  height: 544px;
+  margin-bottom: 96px;
+}
+
+.content .talent-academy .talent>img,
+.content .talent-academy .academy>img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.content .talent-academy .talent .talent-text {
+  position: absolute;
+  top: 94px;
+  left: -24px;
+  width: 514px;
+  height: 347px;
+  padding: 64px 88px 88px 64px;
+  background: #fbfbfb;
+}
+
+.content .talent-academy .talent .talent-text h3,
+.content .talent-academy .academy .academy-text h3 {
+  font-size: 30px;
+  color: #2A2E2E;
+  letter-spacing: 0;
+  line-height: 45px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.content .talent-academy .talent .talent-text h4,
+.content .talent-academy .academy .academy-text h4 {
+  font-size: 20px;
+  color: #2A2E2E;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: 16px;
+  margin-bottom: 4px;
+  font-weight: 400;
+}
+
+.content .talent-academy .talent .talent-text p,
+.content .talent-academy .academy .academy-text p {
+  font-size: 14px;
+  color: #5F6464;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.content .talent-academy .academy {
+  position: relative;
+  height: 544px;
+}
+
+.content .talent-academy .academy .academy-text {
+  position: absolute;
+  top: 94px;
+  right: -24px;
+  width: 664px;
+  height: 403px;
+  padding: 64px 64px 88px 88px;
+  background: #fbfbfb;
+}
+
+.content .talent-academy .academy .academy-text h3 img {
+  width: 216px;
+  height: 96px;
+}
+
+.content .work-env {
+    width: 100%;
+    height: 850px;
+    padding: 96px 0px;
+    background: #fbfbfb;
+}
+
+.content .work-env .env-content {
+    width: 1200px;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.content .work-env .env-content .env-title {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+    color: #2a2e2e;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.content .work-env .env-content .office-env,
+.content .work-env .env-content .multi-culture {
+    width: 588px;
+    margin-top: 44px;
+}
+
+.content .work-env .env-content .office-env {
+    float: left;
+}
+
+.content .work-env .env-content .multi-culture {
+    float: right;
+}
+
+.content .work-env .env-content .office-env img,
+.content .work-env .env-content .multi-culture img {
+    width: 588px;
+    height: 360px;
+}
+
+.content .work-env .env-content .office-env h4,
+.content .work-env .env-content .multi-culture h4 {
+    font-size: 20px;
+    line-height: 36px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: #2a2e2e;
+    font-weight: 700;
+}
+
+.content .work-env .env-content .office-env p,
+.content .work-env .env-content .multi-culture p {
+    font-size: 14px;
+    color: #5F6464;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-bottom: 16px;
+}
+
+.content .stuff-activity {
+    width: 100%;
+    height: 1365px;
+    padding: 96px 0px;
+}
+
+.content .stuff-activity .stuff-title {
+    width: 1200px;
+    height: 45px;
+    margin: 0px auto 44px;
+}
+
+.content .stuff-activity .stuff-title h3 {
+    display: block;
+    float: left;
+    width: 240px;
+    font-size: 30px;
+    color: #2a2e2e;
+    font-weight: 700;
+    font-style: italic;
+    margin-right: 20px;
+}
+
+.content .stuff-activity .stuff-title .des {
+    float: left;
+    font-size: 14px;
+    line-height: 25px;
+    color: #5f6464;
+    margin-top: 17px;
+}
+
+.content .stuff-activity .big-left,
+.content .stuff-activity .small-left {
+    width: 100%;
+    height: 271px;
+}
+
+.content .stuff-activity .big-left .bl-left,
+.content .stuff-activity .small-left .sl-right {
+    position: relative;
+    float: left;
+    width: 66.7%;
+    height: 100%;
+}
+
+.content .stuff-activity .big-left .bl-right,
+.content .stuff-activity .small-left .sl-left {
+    position: relative;
+    float: left;
+    width: 33.3%;
+    height: 100%;
+}
+
+.content .stuff-activity img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content .stuff-activity .big-left h3,
+.content .stuff-activity .small-left h3 {
+    position: absolute;
+    display: block;
+    top: 40px;
+    left: 40px;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 0;
+    margin-bottom: 25px;
+    z-index: 2;
+}
+
+.content .stuff-activity .bl-left-mask,
+.content .stuff-activity .sl-right-mask,
+.content .stuff-activity .bl-right-mask,
+.content .stuff-activity .sl-left-mask {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;   
+}
+
+.content .stuff-activity .bl-left-mask:hover,
+.content .stuff-activity .sl-right-mask:hover,
+.content .stuff-activity .bl-right-mask:hover,
+.content .stuff-activity .sl-left-mask:hover {
+    transition: all 2.5s cubic-bezier(0.2, 0.0, 0.2, 1);
+    opacity: 1;
+}
+
+.content .stuff-activity .bgc-1 {
+    background: rgba(0, 82, 217, 1);
+}
+
+.content .stuff-activity .bgc-2 {
+    background: #9B26B6;
+}
+
+.content .stuff-activity .bgc-3 {
+    background: #00A9CE;
+}
+
+.content .stuff-activity .bgc-4 {
+    background: rgba(121,192,0,1);
+}
+
+.content .stuff-activity .bgc-5 {
+    background: rgba(150,140,131,1);
+}
+
+.content .stuff-activity .bgc-6 {
+    background: rgba(255,103,31,1);
+}
+
+.content .stuff-activity .bgc-7 {
+    background: rgba(255,103,31,1);
+}
+
+.content .stuff-activity .bgc-8 {
+    background: rgba(121,192,0,1);
+}
+
+.content .stuff-activity p {
+    position: absolute;
+    top: 110px;
+    left: 40px;
+    width: calc(100% - 120px);
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+.content .careers {
+    width: 100%;
+    height: 496px;
+    padding-bottom: 96px;
+}
+
+.content .careers .careers-img-box {
+    position: relative;
+    width: 1200px;
+    height: 400px;
+    margin: 0px auto;
+}
+
+.content .careers .careers-img-box>img {
+    position: relative;
+    width: 100%;
+    height: 100%; 
+}
+
+.content .careers .careers-img-box .careers-text {
+    position: absolute;
+    left: 78px;
+    top: 132px;
+}
+
+.content .careers .careers-img-box .careers-text h3 {
+    font-size: 30px;
+    color: #2a2e2e;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+}
+
+.content .careers .careers-img-box .careers-text p {
+    float: left;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #0052d9;
+    margin-right: 9px;
+}
+
+.content .careers .careers-img-box .careers-text img {
+    float: left;
+    width: 19px;
+    height: 16px;
+    margin-top: 10px;
+}
